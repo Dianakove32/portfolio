@@ -1,0 +1,56 @@
+
+//  .scroll{
+//     width: 100%;
+//     overflow-x: hidden;
+//     div{
+//         color:#000;
+//         background: #fff;
+//         font-size: 4em;
+//         white-space: nowrap;
+//         font-weight: 900;
+//         animation: animate 40s linear infinite;
+//     }
+//     .text{
+
+//     }
+// }
+
+// @keyframes animate {
+//     0%   {
+//          transform: translateX(100%); }
+//     100% {
+//         transform: translateX(-100%);  }
+// }
+
+
+.ticker-container{
+    position: relative;
+transform: rotate(5deg);
+background: #e4dada;
+}
+.ticker {
+overflow-x: hidden;
+
+    pointer-events: none;
+    p {
+          font-size: 6vw;
+        white-space: nowrap;
+        opacity: 0.85;
+color: #8e5d5d;
+        animation: marquee 12s linear infinite;
+    }
+    z-index: 10;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0%, 0); }
+    100% { transform: translate(-141.5vw, 0); }
+}
+
+
+
+
+
+
+
+
