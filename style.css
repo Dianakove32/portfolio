@@ -92,19 +92,20 @@ h2 {
   background-color: #ffffff;
 }
 
-body {
-  background: #f4f4f4;
-  text-align: center;
-  font-family: Lato;
+.description-project {
+  font-size: 20px;
+  color: #000;
 }
 
-p {
-  font-size: 25px;
-}
-
-p strong {
-  font-family: Lato;
-  font-size: 40px;
+.btn {
+  width: 70px;
+  height: 40px;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #d4b9b9;
 }
 
 .item {
@@ -384,18 +385,6 @@ p strong {
 
 .container-skills {
   padding-top: 50px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Segoe UI", sans-serif;
-  background-size: cover;
-  overflow-x: hidden;
 }
 
 .container {
