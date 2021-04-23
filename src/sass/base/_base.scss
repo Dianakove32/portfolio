@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
 body{
     background-color: rgb(229, 227, 220);
     color:#0a0a0a ;
@@ -8,6 +13,11 @@ body{
   //font-family: 'Gloria Hallelujah';
   // font-family: 'Merienda', cursive;
  //  font-family: 'Marko One', serif;
+ font-family:"Segoe UI", sans-serif;
+ // background:url(https://awesomeparallexeffect--raghucse20101.repl.co/assets/img/bg.png) no-repeat;
+  background-size:cover;
+//  height:100vh;
+overflow-x: hidden;
 
 }
 h1{

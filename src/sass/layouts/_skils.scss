@@ -3,7 +3,7 @@
 }
 .container-skills{
   padding-top: 50px;
-  background-color:#c3bebb
+ // background-color:#c3bebb
 }
 *{
   margin:0;
@@ -14,7 +14,8 @@ body{
   font-family:"Segoe UI", sans-serif;
  // background:url(https://awesomeparallexeffect--raghucse20101.repl.co/assets/img/bg.png) no-repeat;
   background-size:cover;
-  height:100vh;
+//  height:100vh;
+overflow-x: hidden;
 }
 
 .container{
